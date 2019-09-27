@@ -1,4 +1,4 @@
-public class Ejercicio5{
+public class S1Ejercicio5{
   public static void main(String[] args){
     String rojo = "\033[31m";
     String verde = "\033[32m";

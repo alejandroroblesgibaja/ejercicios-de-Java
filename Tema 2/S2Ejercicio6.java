@@ -1,4 +1,4 @@
-public class Ejercicio16{
+public class S2Ejercicio6{
   public static void main(String[] args){
     double baseImponible = 59.95;
 

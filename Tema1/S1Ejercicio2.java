@@ -1,4 +1,4 @@
-public class Ejercicio2{
+public class S1Ejercicio2{
   public static void main(String[] args){
     System.out.println ("Alejandro");
     System.out.println ("Calle Las Viñas");

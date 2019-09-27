@@ -1,4 +1,4 @@
-public class Ejercicio18{
+public class S2Ejercicio8{
   public static void main(String[] args){
     char l1 = 'f';
     char l2 = 'r';

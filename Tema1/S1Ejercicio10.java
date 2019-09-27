@@ -1,5 +1,5 @@
 
-public class Ejercicio10 {
+public class S1Ejercicio10 {
   public static void main(String[] args) {
 
     String rojo = "\033[31m";

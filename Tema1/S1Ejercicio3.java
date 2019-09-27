@@ -1,4 +1,4 @@
-public class Ejercicio3{
+public class S1Ejercicio3{
   public static void main(String[] args){
     System.out.printf ("%-7s %s\n", "bici", "bike");
     System.out.printf ("%-7s %s\n", "perro", "dog");
