@@ -13,7 +13,7 @@ public class S3Ejercicio5 {
     double área;
     área = base * altura;
 
-    System.out.print("La base del rectángulo es de " + base+ " cm");
+    System.out.print("La base del rectángulo es de " + base + " cm");
     System.out.println(" y la altura es de " + altura + " cm");
     System.out.print("El área total es de ");
     System.out.println(área + " cm²");

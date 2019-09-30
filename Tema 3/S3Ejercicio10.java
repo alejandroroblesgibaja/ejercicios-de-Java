@@ -7,7 +7,7 @@ public class S3Ejercicio10 {
     mb = Double.parseDouble(System.console().readLine());
 
     double kb;
-    kb = mb * 1000;
+    kb = mb * 1024;
 
     System.out.print(mb + " Mb equivalen a " + kb + " Kb");
   } 

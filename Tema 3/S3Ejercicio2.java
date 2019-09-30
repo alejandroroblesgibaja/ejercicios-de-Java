@@ -9,6 +9,6 @@ public class S3Ejercicio2 {
     double pesetas;
     pesetas = euros * 166;
 
-    System.out.print(euros + " € equivalen a " + pesetas + " pesetas");
+    System.out.print(euros + " € equivalen a " + (int) pesetas + " pesetas.");
   } 
 }

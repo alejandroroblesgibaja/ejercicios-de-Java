@@ -12,8 +12,9 @@ public class S3Ejercicio7 {
     double total;
     total = baseImponible + iva;
 
-    System.out.println("La base imponible del producto es " + baseImponible + " €");
-    System.out.println("El IVA del producto es " + iva + " €");
-    System.out.println("El precio total del producto es " + total + " €");
+    System.out.printf("La base imponible del producto es %10.2f €\n", baseImponible);
+    System.out.printf("El IVA del producto es            %10.2f €\n", iva );
+    System.out.printf("----------------------------------------------\n");
+    System.out.printf("El precio total del producto es   %10.2f € ", total);
   } 
 }
