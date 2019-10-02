@@ -3,19 +3,19 @@
  *
  * @author Alejandro Robles Gibaja
  */
-public class S4Ejercicio5 {
+public class S4Ejercicio4 {
   public static void main(String[] args) {
 
-    System.out.println("Este programa resuelve ecuaciones del tipo ax + b = 0");
-    System.out.print("Por favor, introduce el valor de a: ");
-    Double a = Double.parseDouble(System.console().readLine());
-    System.out.print("Por favor, introduce el valor de b: ");
-    Double b = Double.parseDouble(System.console().readLine());
+    int sueldoSemanal;
 
-    if (a == 0) {
-      System.out.println("Esa ecuación no tiene solución.");
+    System.out.print("Por favor, introduzca el número de horas trabajadas durante la semana: ");
+    int horas = Integer.parseInt(System.console().readLine());
+    
+    if (horas < 40) {
+      sueldoSemanal = 12 * horas;
     } else {
-      System.out.println("x = " + (-b/a));
+      sueldoSemanal = (40 * 12) + ((horas - 40) * 16);
     }
+    System.out.println("El sueldo semanal que le corresponde es de " + sueldoSemanal + " euros");
   }
 }
