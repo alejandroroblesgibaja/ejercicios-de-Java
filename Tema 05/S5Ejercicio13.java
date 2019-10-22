@@ -6,7 +6,7 @@
 public class S5Ejercicio13 {
   public static void main(String[] args) {
     
-    System.out.println("En este programa, después de introducir 10 número te dirá cuantos son postivoys y cuantos negativos");
+    System.out.println("En este programa, después de introducir 10 números te dirá cuantos son postivoys y cuantos negativos");
     int numero = 0;
     int numerosIntroducidos = 0;
     int positivo = 0;

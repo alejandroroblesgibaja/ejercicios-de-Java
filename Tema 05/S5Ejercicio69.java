@@ -11,31 +11,31 @@ public class S5Ejercicio69 {
     int caracteresPorFila = 1;
     int espaciosDelanteros = altura - 1;
     
-      for (int i = 0; i < altura; i++) {
+    for (int i = 0; i < altura; i++) {
         //Espacios delanteros cada fila
-        for (int j = 0; j < espaciosDelanteros; j++) {
+      for (int j = 0; j < espaciosDelanteros; j++) {
         System.out.print(" ");
-        }
-        //Pinta el flanco izquierdo 
-        for (int j = 0; j < caracteresPorFila; j++) {
+      }
+      //Pinta el flanco izquierdo 
+      for (int j = 0; j < caracteresPorFila; j++) {
         System.out.print("*");
-        }
+      }
         
-        //Pinta la parte central
-        if (i % 2 == 0) { //cuando i es par
-          System.out.print("****");
-        } else {
-          System.out.print("    ");
-        }
+      //Pinta la parte central
+      if (i % 2 == 0) { //cuando i es par
+        System.out.print("****");
+      } else {
+        System.out.print("    ");
+      }
         
-        //Pinta el flanco derecho 
-        for (int j = 0; j < caracteresPorFila; j++) {
+      //Pinta el flanco derecho 
+      for (int j = 0; j < caracteresPorFila; j++) {
         System.out.print("*");
-        }
-        System.out.println();
+      }
+      System.out.println();
       
-        caracteresPorFila ++;
-        espaciosDelanteros --;
+      caracteresPorFila ++;
+      espaciosDelanteros --;
     }
   }
 }
